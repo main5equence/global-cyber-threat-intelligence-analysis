@@ -106,6 +106,7 @@ FROM threats
 GROUP BY "Attack Type"
 ORDER BY attacks DESC;
 ```
+<img width="1070" height="481" alt="Zrzut ekranu 2026-03-11 203624" src="https://github.com/user-attachments/assets/9ab07de0-eecc-458f-8b34-90a5d00bb922" />
 This query identifies the most frequent types of cyber attacks.
 
 ---
@@ -119,6 +120,7 @@ FROM threats
 GROUP BY Country
 ORDER BY losses DESC;
 ```
+<img width="1009" height="494" alt="Zrzut ekranu 2026-03-11 203835" src="https://github.com/user-attachments/assets/6221f712-eb42-4924-af35-cc3652897cd0" />
 Shows which countries experience the highest financial losses caused by cyber attacks.
 
 ---
@@ -132,7 +134,7 @@ FROM threats
 GROUP BY "Attack Type"
 ORDER BY total_loss DESC;
 ```
-
+<img width="1106" height="403" alt="Zrzut ekranu 2026-03-11 204502" src="https://github.com/user-attachments/assets/a41fd11a-516c-416c-8684-55bfca42c5f2" />
 Analyzes which attack types generate the largest financial damage.
 
 ---
@@ -146,7 +148,7 @@ FROM threats
 GROUP BY "Attack Source"
 ORDER BY incidents DESC;
 ```
-
+<img width="1083" height="264" alt="Zrzut ekranu 2026-03-11 204747" src="https://github.com/user-attachments/assets/17fca5da-3cfe-4e70-820d-8246822b66b1" />
 Identifies the main threat actors responsible for cyber incidents.
 
 ---
@@ -160,6 +162,7 @@ FROM threats
 GROUP BY "Target Industry"
 ORDER BY attacks DESC;
 ```
+<img width="820" height="349" alt="Zrzut ekranu 2026-03-11 204933" src="https://github.com/user-attachments/assets/74c55aab-031e-4c50-acad-6a0f276964bc" />
 
 Shows which industries are most frequently targeted.
 
@@ -174,6 +177,7 @@ FROM threats
 GROUP BY Year
 ORDER BY Year;
 ```
+<img width="741" height="457" alt="Zrzut ekranu 2026-03-11 205108" src="https://github.com/user-attachments/assets/2b6e8d3a-59fd-4250-9258-3ff2f8532401" />
 
 Analyzes how the number of cyber attacks changes over time.
 
@@ -191,8 +195,10 @@ FROM threats
 ORDER BY "Financial Loss (in Million $)" DESC
 LIMIT 10;
 ```
-
+<img width="1234" height="447" alt="Zrzut ekranu 2026-03-11 205206" src="https://github.com/user-attachments/assets/89107715-68c4-4bd7-91ea-4fabe97eb92e" />
 Identifies the cyber incidents with the highest financial losses.
+
+---
 
 ## Dashboard Preview
 
